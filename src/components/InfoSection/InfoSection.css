@@ -1,0 +1,23 @@
+.container {
+  margin-bottom: 72px;
+}
+
+.container div:first-child {
+  display: flex;
+  justify-content: center;
+  background-color: antiquewhite;
+}
+
+.container div:last-child {
+  padding: 20px 20px 0px 20px;
+}
+
+h2 {
+  text-align: center;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  max-height: 350px;
+}
