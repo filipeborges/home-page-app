@@ -1,4 +1,5 @@
 import React from 'react';
+import HeaderTitle from '../HeaderTitle';
 import './InfoSection.css';
 
 interface InfoSectionProps {
@@ -27,7 +28,7 @@ const InfoSection: React.FC<InfoSectionProps> = (props) => {
         <img src={props.image} alt="My pic"/>
       </div>
       <div>
-        <h2>{props.title}</h2>
+        <HeaderTitle type="h2">{props.title}</HeaderTitle>
         <p>{props.children}</p>
       </div>
     </div>
